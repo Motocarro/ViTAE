@@ -1,0 +1,19 @@
+# Build folders
+Build/
+DerivedData/
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.playground
+
+# Config files with secrets
+Config.xcconfig
+
+# CocoaPods (if you use it)
+Pods/
+Podfile.lock
+
+# OS files
+.DS_Store
+
