@@ -1,0 +1,9 @@
+//
+//  Config.xcconfig
+//  ViTAE
+//
+//  Created by Mattia on 04/09/2026.
+//
+WEATHER_API_KEY = "f9e275290f4d70ee0aaa60d60309be96"
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974

@@ -8,7 +8,7 @@ import Foundation
 ///   2. If offline, fall back to the cache silently (surface a small indicator instead).
 ///   3. If there's no cache AND we're offline, fall back to a generic default.
 final class WeatherService {
-    private let apiKey = Constants.weatherAPIKey //"578ea90b831ce9c3fbbd6c10b69cf49f"
+    private let apiKey = Constants.weatherAPIKey
     private let cacheURL: URL
 
     struct FetchResult {

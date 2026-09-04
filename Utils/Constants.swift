@@ -4,7 +4,7 @@ enum Constants {
     /// TODO: Replace with your own OpenWeatherMap API key.
     /// Do not commit a real key to source control — load it from an .xcconfig
     /// or the Keychain in a production build.
-    static let weatherAPIKey = "YOUR_OPENWEATHERMAP_KEY"
+    static let weatherAPIKey = "$(WEATHER_API_KEY)"
 
     /// Free-tier "5 day / 3 hour" forecast endpoint. Each entry is a 3-hour step,
     /// not a full day — see the parsing note in WeatherService for how this is
